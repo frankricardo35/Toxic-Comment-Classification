@@ -21,9 +21,9 @@ To run this project, download the following files from Kaggle and place them in 
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-Ensure you have Python installed, then install the required dependencies:
+Ensure you have Python installed, then install the required dependencies using the provided requirements file:
 ```bash
-pip install pandas numpy scikit-learn joblib streamlit matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 ### 2. Execution Sequence
