@@ -54,7 +54,7 @@ with col1:
     st.title("🚫 Toxic Comment Classifier")
     st.markdown("Enter a comment below to evaluate toxicity.")
     st.write("---")
-    st.subheader("⌨️ Input")
+    # st.subheader("⌨️ Input")
     user_text = st.text_area("Enter a comment to classify:", height=200)
     selected_model = st.selectbox("Select Model", ["Naive Bayes (TF-IDF)", "Logistic Regression (TF-IDF)"])
     classify_btn = st.button("Classify ✨", use_container_width=True)
